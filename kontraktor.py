@@ -46,7 +46,7 @@ def analyze_contract_with_openai(api_key, document_text, user_query):
                 ---
 
                 Berdasarkan dokumen di atas, lakukan analisis berikut: "{user_query}"
-                ""
+                """
             }
         ]
 
